@@ -39,6 +39,9 @@ amqp:
   maxChannels: ${RABBITMQ_MAX_CHANNELS:-10}
   minChannels: ${RABBITMQ_MIN_CHANNELS:-5}
   maxIdleChannels: ${RABBITMQ_MAX_IDLE_CHANNELS:-5}
+  hosts:
+   - hostname-1
+   - hostname-2
 ```
 
 Add the bundle to your application class,
