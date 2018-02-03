@@ -247,9 +247,9 @@
 	
 	<distributionManagement>
 		<repository>
-			<id>bintray-gojek-repo</id>
-			<name>gojek-repo</name>
-			<url>https://api.bintray.com/maven/gojek/repo/gojek-commons/;publish=1</url>
+			<id>bintray-code-experiments-sample</id>
+			<name>code-experiments-sample</name>
+			<url>https://api.bintray.com/maven/code-experiments/sample/gojek-commons/;publish=1</url>
 		</repository>
 	</distributionManagement>
 </project>
